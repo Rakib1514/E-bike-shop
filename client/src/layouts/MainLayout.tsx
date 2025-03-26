@@ -1,17 +1,17 @@
-import React from "react";
 import { Outlet } from "react-router";
+import Navbar from "../components/navbar/Navbar";
 
-const MainLayout: React.FC = () => {
+const MainLayout = () => {
   return (
-    <div>
-      <nav>Navbar</nav>
+    <>
+      <Navbar/>
 
       <main className="min-h-screen">
         <Outlet />
       </main>
 
       <footer>Footer</footer>
-    </div>
+    </>
   );
 };
 export default MainLayout;
