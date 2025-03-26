@@ -1,10 +1,12 @@
 import { Outlet } from "react-router";
 import Navbar from "../components/navbar/Navbar";
+import HeaderMarquee from "../components/marquee/HeaderMarquee";
 
 const MainLayout = () => {
   return (
     <>
-      <Navbar/>
+      <HeaderMarquee />
+      <Navbar />
 
       <main className="min-h-screen">
         <Outlet />
