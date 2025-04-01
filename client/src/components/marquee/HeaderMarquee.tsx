@@ -25,10 +25,10 @@ const HeaderMarquee = () => {
   ];
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between font-body">
       <Marquee autoFill speed={25}>
-        {statements.map((state: string) => (
-          <span className="mr-28">+{state}</span>
+        {statements.map((state: string, idx: number) => (
+          <span key={idx} className="mr-28">+{state}</span>
         ))}
       </Marquee>
       <div className="flex flex-1/5 gap-4 px-4">

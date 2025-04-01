@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 
 
 @theme {
-  /* --font-display: "Satoshi", "sans-serif";
-  --breakpoint-3xl: 120rem; */
+  --font-heading:  "Orbitron", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
   --color-primary: #00C4FC;
   --color-secondary: #2E5368;
   --color-base-v1: #F4F4F4;

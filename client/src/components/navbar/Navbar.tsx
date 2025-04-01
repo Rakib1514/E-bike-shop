@@ -8,9 +8,9 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <header className="bg-secondary w-full">
+    <header className="bg-secondary w-full font-body">
       <div className="container mx-auto flex items-center justify-between px-0.5 py-2">
-        <div className="brand__logo text-primary text-5xl font-semibold uppercase">
+        <div className="brand__logo text-primary text-5xl font-semibold uppercase font-heading">
           <span>E-Bike</span>
         </div>
         <nav className="nav__links text-white">
