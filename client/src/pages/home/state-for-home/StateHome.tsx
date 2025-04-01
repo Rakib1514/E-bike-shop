@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router";
-import ToolIcon from "./state-icons/ToolIcon";
-import CommonStyleStateIcon from "./state-icons/CommonStyleStateIcon";
-import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { TbMotorbike } from "react-icons/tb";
+import { Link } from "react-router";
+import CommonStyleStateIcon from "./state-icons/CommonStyleStateIcon";
+import ToolIcon from "./state-icons/ToolIcon";
 
 type stateDataType = {
   icon: React.ReactNode;
